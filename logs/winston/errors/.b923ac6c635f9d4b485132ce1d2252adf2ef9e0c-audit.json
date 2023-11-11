@@ -1,0 +1,310 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\.b923ac6c635f9d4b485132ce1d2252adf2ef9e0c-audit.json",
+    "files": [
+        {
+            "date": 1698417639300,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-27-10-20-error.log",
+            "hash": "6cf71c635f4f19ad31bf8ca3eebe98b644be4d78e4c09a9af1c922cfbf80ce97"
+        },
+        {
+            "date": 1698421044843,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-27-10-21-error.log",
+            "hash": "656a87c7aa173e22b71f652859ef7ac8f7f079fb49323c48050959027ff258b3"
+        },
+        {
+            "date": 1698427101044,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-27-10-23-error.log",
+            "hash": "5b5bc24c01d797c21bd8218345a8738b78c46a172ea2280ece90e9a3d2f12c36"
+        },
+        {
+            "date": 1698430189805,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-28-10-00-error.log",
+            "hash": "78c8d71abec18abc7ece6358fa6769384934458572a556c5ff6d4b697da5672a"
+        },
+        {
+            "date": 1698467515875,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-28-10-10-error.log",
+            "hash": "edb9b23ed350d657254e36694d89de9ae1d5c5c3bf4646c9dfe81ae58640694f"
+        },
+        {
+            "date": 1698472027319,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-28-10-11-error.log",
+            "hash": "c2e3ae03b00deb953093e5d51865a7b987cae3281dd6bd9f974a06f162f89c06"
+        },
+        {
+            "date": 1698492494727,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-28-10-17-error.log",
+            "hash": "2f97cc369e86b824d70444840dce437bc217d9cccf32fd23c29fb300aca43031"
+        },
+        {
+            "date": 1698499694288,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-28-10-19-error.log",
+            "hash": "8d2faf2e7237197c75ad21d73bade6344a9b3e79724db21b1a0f917531d46419"
+        },
+        {
+            "date": 1698502823853,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-28-10-20-error.log",
+            "hash": "acc5972661c1d2e7ecae9752a8bf880d88caac99e5099fa2d4680eb635f859ab"
+        },
+        {
+            "date": 1698507569627,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-28-10-21-error.log",
+            "hash": "9946922426c69fa58d805271ebd91461f09cfb02c49590d8fe11b04342310691"
+        },
+        {
+            "date": 1698509351218,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-28-10-22-error.log",
+            "hash": "094840fd85c332f69937e2275e8f678e65b78a4a8c5cd7a93e8bd3f4714d7c71"
+        },
+        {
+            "date": 1698551833981,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-29-10-09-error.log",
+            "hash": "f624e2490223b13b99db31b4de1acb2b53a2d3f57ad3ecb23c7103693685ee52"
+        },
+        {
+            "date": 1698552088085,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-29-10-10-error.log",
+            "hash": "19c207b8fc5f1d1842b7f8ca25938377cca159be3ae410f33a07f7eb62b70878"
+        },
+        {
+            "date": 1698555632395,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-29-10-11-error.log",
+            "hash": "e3542e37addeaa90eaed10a92cef78959527ce0a03e68300dbb079fb63d038f3"
+        },
+        {
+            "date": 1698604260583,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-30-10-00-error.log",
+            "hash": "3d8ae790fbe6964dc3ad550eb7355b2fa2c776974c971c680e50c5e1f3544c60"
+        },
+        {
+            "date": 1698645145867,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-30-10-11-error.log",
+            "hash": "09659e5fc6944861bf1c606c1d2fdaed05b3dd9c839c6c23c4368bca1c38e446"
+        },
+        {
+            "date": 1698647854247,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-30-10-12-error.log",
+            "hash": "28f0ce623a374ca217831fe4d98cda44754e0b1353db145c3825c23923207deb"
+        },
+        {
+            "date": 1698651290892,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-30-10-13-error.log",
+            "hash": "dab88f26b57d654429a7c5c716c99916e9c321f46f6276d3fb50bcb17a7da696"
+        },
+        {
+            "date": 1698671220325,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-30-10-19-error.log",
+            "hash": "58e1cd144829c52333173fd56e84a07bf6ee6d7c0ac0819630c38c24b0065d44"
+        },
+        {
+            "date": 1698674801477,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-30-10-20-error.log",
+            "hash": "94f6de773d7e956f385d270ef852a87ad65ea4fb1765a2fdb4391df1f6920653"
+        },
+        {
+            "date": 1698678615975,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-30-10-21-error.log",
+            "hash": "abf909fb119888851feaf99ff49ef939c800ca90543c4dc5e4dcd51cff9ae38b"
+        },
+        {
+            "date": 1698686472406,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-30-10-23-error.log",
+            "hash": "c2150038e3157da56aa0c585e12df7a0e1846dce6d26c8f741a7911fa6efa48d"
+        },
+        {
+            "date": 1698718706218,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-31-10-08-error.log",
+            "hash": "20648242752229a8561c0d534ccd34510057a93f719063f7a2e4e9f34f44e544"
+        },
+        {
+            "date": 1698721502257,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-31-10-09-error.log",
+            "hash": "0c2b74d96d433e8fa3c5f69e2074bac67c72db99a5ab03e5cdf0b61e36e3d995"
+        },
+        {
+            "date": 1698732188601,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-31-10-12-error.log",
+            "hash": "40ba65d3a3a028e0f9893e94ec33a38ff2d167a406d7d683361399a2fea6555d"
+        },
+        {
+            "date": 1698744165068,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-31-10-15-error.log",
+            "hash": "1051a346c9eb4cf3cdbc4ec9d43a3c048206b1a3bd2e4da1044d288478596023"
+        },
+        {
+            "date": 1698752941282,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-31-10-17-error.log",
+            "hash": "b03448a84cf345c2f778a9e4a626ece0c00af584e2e2a15fec389379030c6781"
+        },
+        {
+            "date": 1698754477166,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-31-10-18-error.log",
+            "hash": "0d2b409ab96c7a64c6d6ec1155089e7e6eb3136b7077c409fcb526c6c95417c5"
+        },
+        {
+            "date": 1698757202066,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-31-10-19-error.log",
+            "hash": "32fed22d02d3688de7bc08417af330fd21935448779e228932be248b1502ed37"
+        },
+        {
+            "date": 1698769260586,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-31-10-22-error.log",
+            "hash": "373a34176dba79a7bd194a1a4bf9f052a82ceb6b3facb9bad66c124743c74ffc"
+        },
+        {
+            "date": 1698772692116,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-31-10-23-error.log",
+            "hash": "0e602521e76381330ec9d7fc4e09d5ddf441ea920a8d44261ca6eb62d1b02bba"
+        },
+        {
+            "date": 1698775354741,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-01-11-00-error.log",
+            "hash": "c4fe97b6128ddb3dd0916fce0714814453f1a83e099f9a2002a2a29b3fb8f41d"
+        },
+        {
+            "date": 1698805246197,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-01-11-08-error.log",
+            "hash": "2214e052367bce5bb422c005bb94d9279b1f3cfc3aa15432d7524ab4c5fe5d90"
+        },
+        {
+            "date": 1698809168327,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-01-11-09-error.log",
+            "hash": "1c92bd99a345a7f486d75841ce1070e74123c028c13e4e68e3b86e0c8cf0a933"
+        },
+        {
+            "date": 1698812075749,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-01-11-10-error.log",
+            "hash": "43283b79b3988432f92fd6909e7dc89a18d960b66059831dbcfe1b97b4a3834a"
+        },
+        {
+            "date": 1698816106070,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-01-11-11-error.log",
+            "hash": "a9e1a6ab25708cc15abd7ec5e735c34e4e4d034ae7b9591822933d0c8f926bb1"
+        },
+        {
+            "date": 1698820237468,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-01-11-12-error.log",
+            "hash": "766e0f637690fbc86408bf20cd1887c52f1432461f52363e6c1655631bd9eb06"
+        },
+        {
+            "date": 1698827368014,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-01-11-14-error.log",
+            "hash": "2c4ed9dddb584612eda75a98c23192ffafead9836f862c182fafce2b425ccb36"
+        },
+        {
+            "date": 1698842893245,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-01-11-18-error.log",
+            "hash": "207f578004897d25e3c1f702e287eef23066d642154e4edfa915365597df7515"
+        },
+        {
+            "date": 1698850357966,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-01-11-20-error.log",
+            "hash": "80186f8023cee5ec4b82c23cea27f0034aebc3ef4c6c4a3e428ffe29ec1b63e7"
+        },
+        {
+            "date": 1698851354621,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-01-11-21-error.log",
+            "hash": "b894c49b6d72bff6c2ae342656413f881941cb677358fc68eb26cbb7cabb4c7a"
+        },
+        {
+            "date": 1698859354803,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-01-11-23-error.log",
+            "hash": "10ca38dcdf4d6bf06a7f51e19f72cf0d4979abf40d25a15301cd50323bfda7d5"
+        },
+        {
+            "date": 1698895437295,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-02-11-09-error.log",
+            "hash": "ab5dc9860a0c38368adda2d80ba012db5faa2031997cfb30494069cc9e18f49d"
+        },
+        {
+            "date": 1698898427905,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-02-11-10-error.log",
+            "hash": "7c7c1f775a07c984eaa2ca8f692cc9a3cb2e8c1e1228b527702437506b8f249d"
+        },
+        {
+            "date": 1698902202822,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-02-11-11-error.log",
+            "hash": "41aed684f1661012f182ccb42da98b5418886187a5b7bf10a601bd6e881f0ea2"
+        },
+        {
+            "date": 1698905645062,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-02-11-12-error.log",
+            "hash": "e65d401cfce12a03fefce684d3466245aa2b243480f464e7645010eddd47cfe8"
+        },
+        {
+            "date": 1698916957679,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-02-11-15-error.log",
+            "hash": "c883e490575cc0116c330883fdd6733d61d63f7ba32b7cdab6367c24423961d7"
+        },
+        {
+            "date": 1698930606999,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-02-11-19-error.log",
+            "hash": "a81c440f2b98ae1b83446a2ce22c4c7b662488783bd8f16e9d9fc64572c70037"
+        },
+        {
+            "date": 1698934734391,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-02-11-20-error.log",
+            "hash": "2b76d4809262e04f45a6336b1ba00ee331b48698263aabbc9bcbf76f09a9b322"
+        },
+        {
+            "date": 1698986524755,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-03-11-10-error.log",
+            "hash": "2cbd4bc75ab83663d0c72e2e4b036404f28e0ec815056d23b34d6840b8e181c5"
+        },
+        {
+            "date": 1698989588449,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-03-11-11-error.log",
+            "hash": "45f6a0eade5294d4ac35949102ba9e98296cdc3ec98a9749d239fa64be0b77d2"
+        },
+        {
+            "date": 1699018462472,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-03-11-19-error.log",
+            "hash": "27a3468172eaab9d7ecb9d645c35534558ce2018b776c7e9ff224ca694a8bbd5"
+        },
+        {
+            "date": 1699023604485,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-03-11-21-error.log",
+            "hash": "6c90a957656504d40a4b1703ba42e3f98bc1c44511e7ccb18f1e80f7dcf5458c"
+        },
+        {
+            "date": 1699032795162,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-03-11-23-error.log",
+            "hash": "5cb29443e86b82af424985769dd5d30d82d8c73710f6174426bcc8319a9da1b2"
+        },
+        {
+            "date": 1699161454434,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-05-11-11-error.log",
+            "hash": "5d89b474f0ff4f318eece8a406c278c1f8d7b5080018f63b362b6a766219744d"
+        },
+        {
+            "date": 1699165796879,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-05-11-12-error.log",
+            "hash": "bbdc10d271959cf3e8a0e9d0a55138a8aed394e81d0f89c57ed479f4eebd68fe"
+        },
+        {
+            "date": 1699173939250,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-05-11-14-error.log",
+            "hash": "de0168a51d46c1cae6158c11ec44bde26f33a6f5c99eab768f1551178a3c887e"
+        },
+        {
+            "date": 1699174844639,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-05-11-15-error.log",
+            "hash": "63312647ce5cf1532e9171d974abc9e27defc05912d253cf32ecd1f8befc5aab"
+        },
+        {
+            "date": 1699183306629,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-05-11-17-error.log",
+            "hash": "9f8ee41874797fd8ca935017ae5f0c351ece9331c5a60839d4d2d9321d6d9319"
+        },
+        {
+            "date": 1699192415804,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\errors\\phu-2023-05-11-19-error.log",
+            "hash": "8ce08fd888520fc0b4bc5b327a262060180729c42b33915dad0801a7b3cf746b"
+        }
+    ],
+    "hashType": "sha256"
+}

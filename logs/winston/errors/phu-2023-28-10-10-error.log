@@ -1,0 +1,85 @@
+Sat Oct 28 2023 10:35:56 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.room.create()` invocation:
+
+{
+  data: {
+    room: "101",
+    floorNumber: "1st",
+    buildingId: "d37549c3-b183-4bc6-9992-f27a0b5d695a",
++   roomNumber: String
+  }
+}
+
+Argument `roomNumber` is missing.
+Sat Oct 28 2023 10:36:51 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "room"
+    ],
+    "message": "Room is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "floorNumber"
+    ],
+    "message": "Floor number is required"
+  }
+]
+Sat Oct 28 2023 10:41:38 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.room.create()` invocation:
+
+
+Foreign key constraint failed on the field: `rooms_buildingId_fkey (index)`
+Sat Oct 28 2023 10:42:2 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.room.create()` invocation:
+
+
+Foreign key constraint failed on the field: `rooms_buildingId_fkey (index)`
+Sat Oct 28 2023 10:42:21 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.room.findMany()` invocation:
+
+{
+  include: {
+    building: true
+  },
+  where: {
+    AND: [
+      {
+        OR: [
+          {
+            room: {
+              contains: "101",
+              mode: "insensitive"
+            }
+          },
+          {
+            floorNumber: {
+              contains: "101",
+              mode: "insensitive"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  take: 10,
+  skip: 0,
+  orderBy: {
+    createdAt: "desc"
+  }
+}
+
+Unknown argument `room`. Did you mean `floor`? Available options are marked with ?.
+Sat Oct 28 2023 10:43:58 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.room.create()` invocation:
+
+
+Foreign key constraint failed on the field: `rooms_buildingId_fkey (index)`

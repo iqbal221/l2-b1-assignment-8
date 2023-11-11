@@ -1,0 +1,75 @@
+Thu Nov 09 2023 9:48:13 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.user.findMany()` invocation:
+
+{
+  where: {
+    AND: [
+      {
+        OR: [
+          {
+            name: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          },
+          {
+            email: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          },
+          {
+            contactNo: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          },
+          {
+            address: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          },
+          {
+            role: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  take: 10,
+  skip: 0,
+  orderBy: {
+    createdAt: "desc"
+  }
+}
+
+Unknown argument `contains`. Available options are marked with ?.
+Thu Nov 09 2023 9:50:21 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ User does not exist
+Thu Nov 09 2023 9:52:45 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Nov 09 2023 9:53:18 } [PH] error: 
+Invalid `prisma.order.findUnique()` invocation:
+
+{
+  where: {
+    id: undefined,
+?   AND?: OrderWhereInput | OrderWhereInput[],
+?   OR?: OrderWhereInput[],
+?   NOT?: OrderWhereInput | OrderWhereInput[],
+?   orderedBooks?: JsonNullableListFilter,
+?   status?: EnumStatusFilter | Status,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   userId?: StringFilter | String,
+?   user?: UserRelationFilter | UserWhereInput
+  }
+}
+
+Argument `where` of type OrderWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+Thu Nov 09 2023 9:54:11 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Nov 09 2023 9:57:44 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Nov 09 2023 9:58:3 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized
+Thu Nov 09 2023 9:58:29 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized

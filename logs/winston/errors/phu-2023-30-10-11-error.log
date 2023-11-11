@@ -1,0 +1,10 @@
+Mon Oct 30 2023 11:55:19 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.courseToPrerequisite.create()` invocation:
+
+
+Foreign key constraint failed on the field: `CourseToPrerequisite_preRequisiteId_fkey (index)`
+Mon Oct 30 2023 11:57:23 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.courseToPrerequisite.create()` invocation:
+
+
+Foreign key constraint failed on the field: `CourseToPrerequisite_preRequisiteId_fkey (index)`

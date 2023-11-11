@@ -1,0 +1,48 @@
+Tue Oct 31 2023 19:0:2 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "number",
+    "path": [
+      "body",
+      "minCredit"
+    ],
+    "message": "Expected string, received number"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "number",
+    "path": [
+      "body",
+      "maxCredit"
+    ],
+    "message": "Expected string, received number"
+  }
+]
+Tue Oct 31 2023 19:2:9 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.semesterRegistration.update()` invocation:
+
+{
+  include: {
+    academicSemester: true
+  },
+  where: {
+    id: "0c9eff81-4040-44cb-80ed-4120eaa17102"
+  },
+  data: {
+    statuss: "ENDED",
+    ~~~~~~~
+    minCredit: 6,
+    maxCredit: 12,
+?   id?: String | StringFieldUpdateOperationsInput,
+?   startDate?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   endDate?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   status?: SemesterRegistrationStatus | NullableEnumSemesterRegistrationStatusFieldUpdateOperationsInput | Null,
+?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+?   academicSemester?: AcademicSemesterUpdateOneRequiredWithoutSemesterRegistrationsNestedInput
+  }
+}
+
+Unknown argument `statuss`. Did you mean `status`? Available options are marked with ?.

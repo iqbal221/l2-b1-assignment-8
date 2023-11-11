@@ -1,0 +1,77 @@
+Tue Nov 07 2023 21:2:41 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.user.findMany()` invocation:
+
+{
+  where: {
+    AND: [
+      {
+        OR: [
+          {
+            name: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          },
+          {
+            email: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          },
+          {
+            contactNo: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          },
+          {
+            address: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          },
+          {
+            role: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  take: 10,
+  skip: 0,
+  orderBy: {
+    createdAt: "desc"
+  }
+}
+
+Unknown argument `contains`. Available options are marked with ?.
+Tue Nov 07 2023 21:8:3 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.order.create()` invocation:
+
+{
+  data: {
+    orderedBooks: [
+      {
+        bookId: "9ddafc22-8948-4a91-b8f4-4d0834a0659d",
+        quantity: 3
+      },
+      {
+        bookId: "578c36e4-d010-4285-bf44-6a03a2fb28c3",
+        quantity: 2
+      }
+    ],
++   user: {
++     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
++     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
++     connect: UserWhereUniqueInput
++   }
+  }
+}
+
+Argument `user` is missing.
+Tue Nov 07 2023 21:21:5 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized
+Tue Nov 07 2023 21:32:31 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized
+Tue Nov 07 2023 21:32:34 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized

@@ -1,0 +1,127 @@
+Fri Nov 03 2023 21:7:12 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ jwt expired
+Fri Nov 03 2023 21:7:19 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized
+Fri Nov 03 2023 21:9:19 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized
+Fri Nov 03 2023 21:23:18 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "startDate"
+    ],
+    "message": "Start date is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "endDate"
+    ],
+    "message": "End date is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "status"
+    ],
+    "message": "Status is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "undefined",
+    "path": [
+      "body",
+      "minCredit"
+    ],
+    "message": "minCredit is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "undefined",
+    "path": [
+      "body",
+      "maxCredit"
+    ],
+    "message": "maxCredit is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "academicSemesterId"
+    ],
+    "message": "Academic Semester Id is required"
+  }
+]
+Fri Nov 03 2023 21:26:9 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "startDate"
+    ],
+    "message": "Start date is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "endDate"
+    ],
+    "message": "End date is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "status"
+    ],
+    "message": "Status is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "undefined",
+    "path": [
+      "body",
+      "minCredit"
+    ],
+    "message": "minCredit is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "undefined",
+    "path": [
+      "body",
+      "maxCredit"
+    ],
+    "message": "maxCredit is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "academicSemesterId"
+    ],
+    "message": "Academic Semester Id is required"
+  }
+]

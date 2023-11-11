@@ -1,0 +1,24 @@
+Thu Nov 09 2023 10:0:23 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Nov 09 2023 10:1:36 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Nov 09 2023 10:3:29 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Nov 09 2023 10:6:34 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Nov 09 2023 10:9:31 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Nov 09 2023 10:10:29 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Nov 09 2023 10:12:9 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized
+Thu Nov 09 2023 10:16:6 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Nov 09 2023 10:16:22 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Nov 09 2023 10:27:6 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.user.delete()` invocation:
+
+
+Foreign key constraint failed on the field: `orders_userId_fkey (index)`
+Thu Nov 09 2023 10:27:26 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ invalid token
+Thu Nov 09 2023 10:27:33 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.user.delete()` invocation:
+
+
+Foreign key constraint failed on the field: `orders_userId_fkey (index)`
+Thu Nov 09 2023 10:33:49 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ User Id is required
+Thu Nov 09 2023 10:35:45 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ User does not exist
+Thu Nov 09 2023 10:37:40 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Nov 09 2023 10:43:56 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden

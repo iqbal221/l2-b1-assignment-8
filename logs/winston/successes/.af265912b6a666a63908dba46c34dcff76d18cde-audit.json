@@ -1,0 +1,305 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\.af265912b6a666a63908dba46c34dcff76d18cde-audit.json",
+    "files": [
+        {
+            "date": 1698417639258,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-27-10-20-success.log",
+            "hash": "b5c877ac0328b85f6855106789479ec0f87252f73206f1bbd280e4f443147012"
+        },
+        {
+            "date": 1698421044825,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-27-10-21-success.log",
+            "hash": "5b3ac9fd9c73bcc7c1e572987662125887203677e032d865c799eea6cbffc691"
+        },
+        {
+            "date": 1698427101025,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-27-10-23-success.log",
+            "hash": "d7d405b4f057a4591a4edac3b0b409760a80d3e32b2d2167e66708419cb945c5"
+        },
+        {
+            "date": 1698430189762,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-28-10-00-success.log",
+            "hash": "6225ad9ed10c54e6e1be3ae4f6d9b739200573484a1008c3220e3225bed5f95b"
+        },
+        {
+            "date": 1698467515851,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-28-10-10-success.log",
+            "hash": "f71757780524bbb681d99f38df5c538f74cbe65cbce019a0bae5bc795770d29f"
+        },
+        {
+            "date": 1698472027298,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-28-10-11-success.log",
+            "hash": "9277645b8df16c18366e9336caacf62e6c5c4714a0c5dd66ab1b6a6054eccb5a"
+        },
+        {
+            "date": 1698492494697,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-28-10-17-success.log",
+            "hash": "271f14b7a898d797dc791020fe8b19db353bd5bbb0984d7aaf831cb31d591010"
+        },
+        {
+            "date": 1698499694267,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-28-10-19-success.log",
+            "hash": "321ad619e4031b99d1ea31a6d3995980530d88d3bf6bc6fb8fd63a500463ef36"
+        },
+        {
+            "date": 1698502823820,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-28-10-20-success.log",
+            "hash": "ce02384dbd9799f357b03ca831b9fba765d81d3d036d525d29d4bb7a0404a536"
+        },
+        {
+            "date": 1698507569591,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-28-10-21-success.log",
+            "hash": "efcfa51c669a7bf478623708b171d6b8f88db1759d614671939e76bb6df62560"
+        },
+        {
+            "date": 1698509351195,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-28-10-22-success.log",
+            "hash": "478feb4ba248610700feccd2d0342c2806ef7bfcbaceeb0f1416881cabdffedf"
+        },
+        {
+            "date": 1698551833961,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-29-10-09-success.log",
+            "hash": "ddd7340c29eb5cdba56767bdbb22e38206b0c0942a5744399660d4397965d4bb"
+        },
+        {
+            "date": 1698552088064,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-29-10-10-success.log",
+            "hash": "7c0f7a2b8f4f63725d0bd00742d4cccb36ede487345bee91c9a87bf71f9a1b52"
+        },
+        {
+            "date": 1698555632354,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-29-10-11-success.log",
+            "hash": "d09a2e8bce0fd4ec240cb375e60d4a36e7686b07d3db69f655258c9d9c96d2a3"
+        },
+        {
+            "date": 1698604260556,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-30-10-00-success.log",
+            "hash": "6051f6ef516e12b06a582584a47b55794bb59f10a8cd939180f10f60ff8abf32"
+        },
+        {
+            "date": 1698645145840,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-30-10-11-success.log",
+            "hash": "bf8d7e0b700295026773931ce30f5a6cb924fb789db2af9296f815f46bce6315"
+        },
+        {
+            "date": 1698647854218,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-30-10-12-success.log",
+            "hash": "fe006bacc82e5fa378a4111fba75a4372f042ebcab741e5148aa7188e0979d34"
+        },
+        {
+            "date": 1698651290863,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-30-10-13-success.log",
+            "hash": "84c73b8426dea25da1938647b5e05dd6c6b3da421ba08db441a12892a6ddc161"
+        },
+        {
+            "date": 1698671220249,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-30-10-19-success.log",
+            "hash": "2952dbecfdbbb8d2b4964bfc9c6821b13fd745ae582a701c030edd4dd1ccd83d"
+        },
+        {
+            "date": 1698674842632,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-30-10-20-success.log",
+            "hash": "3852deede1a2b58bbaf6f92ae02c32693bca67afa8838bfad75ef733ddc5cfc1"
+        },
+        {
+            "date": 1698678615940,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-30-10-21-success.log",
+            "hash": "0b69295870e0ef1f50f389e4c2683c1381235bec7532bd8047415529106c40b0"
+        },
+        {
+            "date": 1698686472364,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-30-10-23-success.log",
+            "hash": "d53ae2e1c92799bb07d06add23a20db94b5d1dfe1f8fdebe4da17da3a84ca76f"
+        },
+        {
+            "date": 1698718706188,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-31-10-08-success.log",
+            "hash": "2bcc6f71207d2d0f45cabe2241e3a58c4b51e0cf5865751cd903972fb76475a3"
+        },
+        {
+            "date": 1698721501931,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-31-10-09-success.log",
+            "hash": "305be509099da40d84c9475a9cda182e480da8e7b97d80e9b65d4b846d87aee0"
+        },
+        {
+            "date": 1698732188553,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-31-10-12-success.log",
+            "hash": "37dfba40724590ac06fb3f0cd62326a0f0a3c0a6168bccff56403fef29f93320"
+        },
+        {
+            "date": 1698744165025,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-31-10-15-success.log",
+            "hash": "c5681caabfd78e7b1eeed55ebdfe38607a79f2427657a7ddb6ae585d15149f03"
+        },
+        {
+            "date": 1698752941211,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-31-10-17-success.log",
+            "hash": "db9ea5188f9c818d6446b696b421840e87db258831d531d7d50df7d2734e35e6"
+        },
+        {
+            "date": 1698755085347,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-31-10-18-success.log",
+            "hash": "b7be5edf409d076ba122c7e455946783ad8abf986a028cc5362d60c8e6919b90"
+        },
+        {
+            "date": 1698757319637,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-31-10-19-success.log",
+            "hash": "fd96a03a5d89dfc37aebafaa24e6e5636321a8fa7f27ccba63a76afbfed21833"
+        },
+        {
+            "date": 1698769260536,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-31-10-22-success.log",
+            "hash": "87b755e729a30b67f9b3015ffefc37ba137b1b01235a520b27470f5c0431073a"
+        },
+        {
+            "date": 1698772692040,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-31-10-23-success.log",
+            "hash": "9d00f54559e0e53271dc496f3037838c3dfa8f3324dc60f83ca8f5fc8e7f0ef6"
+        },
+        {
+            "date": 1698775520305,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-01-11-00-success.log",
+            "hash": "3d1f2fa5e79617c7141ab3022072b55fc52646e08d953895ff52cc6f27f86746"
+        },
+        {
+            "date": 1698805246156,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-01-11-08-success.log",
+            "hash": "208bd7256561bfbe564b3a2c99141ecb73d1b5bedf1219e50aff71600278d219"
+        },
+        {
+            "date": 1698809168304,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-01-11-09-success.log",
+            "hash": "3a6f234bb6466ee7848d4ba7c2238b0043cb983a885c0fbe5f70346847dabff3"
+        },
+        {
+            "date": 1698812075720,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-01-11-10-success.log",
+            "hash": "b2b9fcbb41b2e1520402548d3f296218e9361bc1f07974194d40490e8f7e3ece"
+        },
+        {
+            "date": 1698816106035,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-01-11-11-success.log",
+            "hash": "acfd0b39f2e04782d23e9101b162070957b549654eb4ea0363f275f126c42e51"
+        },
+        {
+            "date": 1698820237436,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-01-11-12-success.log",
+            "hash": "9cb55fc949b7532ac85eae0576a39fe67da62167f1d6a9e6a3cfe33f307a7a36"
+        },
+        {
+            "date": 1698827367985,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-01-11-14-success.log",
+            "hash": "6a95a0b3508d9c6c745fd3d7ca95923147348520f4b5bbfe85d1cb89f6a7cb05"
+        },
+        {
+            "date": 1698842893211,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-01-11-18-success.log",
+            "hash": "50e4fafee9922898065385e472e0cfb541906584500e325cc324019f0c4f9b9d"
+        },
+        {
+            "date": 1698850357916,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-01-11-20-success.log",
+            "hash": "670e84f598624f4ba018771e81ee0025c2d59bae690b46af9b07890f9a65521a"
+        },
+        {
+            "date": 1698851354577,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-01-11-21-success.log",
+            "hash": "cf6d6246633b354977dba39f947e6cd6b117d5b1a450b1d6c6f7c95e2d7cc1fb"
+        },
+        {
+            "date": 1698859641962,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-01-11-23-success.log",
+            "hash": "2995a61c2e78c2ee4b3d5457927092140b8ab47a83c0011647d585066e521df2"
+        },
+        {
+            "date": 1698895436939,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-02-11-09-success.log",
+            "hash": "a52383cbf7a9dc98fd8b67fe570e1b8e5edae70143ec85e4c8598c42c2ac346a"
+        },
+        {
+            "date": 1698898427881,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-02-11-10-success.log",
+            "hash": "9e2bbfd011b1c6c1da6990c10dab9ca3f88f29ab4431d0041ddb24c8af62596d"
+        },
+        {
+            "date": 1698902202789,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-02-11-11-success.log",
+            "hash": "c01b8e4ace8b8fdf6bfe0927372c16187104f718bff0f7fe4b0a0b902410da46"
+        },
+        {
+            "date": 1698905645040,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-02-11-12-success.log",
+            "hash": "a241ecf00518e59534023387a8fd91881bb6c74d7ce8a055aa2afd585e8bb7cd"
+        },
+        {
+            "date": 1698916957653,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-02-11-15-success.log",
+            "hash": "f5fe5c8ea4acc4bc5ddbdb4f0e6d748670025e110da07d078dbbe559fa4924ab"
+        },
+        {
+            "date": 1698930606979,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-02-11-19-success.log",
+            "hash": "42a9b39e06e415bb61e004704dad81c6870faa801c697374d5102dfdc7c0bbdb"
+        },
+        {
+            "date": 1698934734371,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-02-11-20-success.log",
+            "hash": "d28cc094a8ce74fcee5ac9426f00190addf36ef58fdf608908a323be5cdc2619"
+        },
+        {
+            "date": 1698986524699,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-03-11-10-success.log",
+            "hash": "00b28768aeb82e3895d04746bba0a18dcefbfcafa422a4c86356a30a7338d3a2"
+        },
+        {
+            "date": 1698990380355,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-03-11-11-success.log",
+            "hash": "d3946bb95c4b48c06b78d35fd7ccdbdd6a97de9f942e6bf2eb2ddd29cb77526b"
+        },
+        {
+            "date": 1699018462412,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-03-11-19-success.log",
+            "hash": "4f49b9c6328ea60803eed141b1228b7cf97ec6e3f0e2a53a6487accbf4a2486c"
+        },
+        {
+            "date": 1699023604454,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-03-11-21-success.log",
+            "hash": "4400c5191e54de7097a6730f315bffb540c67f48bab5563482b3be9941154866"
+        },
+        {
+            "date": 1699032795129,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-03-11-23-success.log",
+            "hash": "c9ccbe568f04adb92a130e08abe7b1bf7410d1669d8e8cb4c73c98c5eb7a2d1a"
+        },
+        {
+            "date": 1699161454223,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-05-11-11-success.log",
+            "hash": "2fe3af13db170c671da15531d40254fc477020766b175460fbe4e58e3f7c553e"
+        },
+        {
+            "date": 1699165796841,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-05-11-12-success.log",
+            "hash": "cef27fcd7d9d115ed32fa009609f2106d5821a9cdfd9d0523a243f5d217969e4"
+        },
+        {
+            "date": 1699173939120,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-05-11-14-success.log",
+            "hash": "8ddbb3164961f8b6cdd4426bdfe48466200e84d535ab53ef6eb94c1bfb8b7e7c"
+        },
+        {
+            "date": 1699174844591,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-05-11-15-success.log",
+            "hash": "9586fc933a3d6d5bac9d1dab6e6be831ed06bbee930fdbd092a6edbf8b6868f5"
+        },
+        {
+            "date": 1699192415761,
+            "name": "D:\\Module-33 (Microservice)\\university-management-core-service-starter\\logs\\winston\\successes\\phu-2023-05-11-19-success.log",
+            "hash": "04103f64e9ffafbae3d7b4071482982264970b7261189ee16ffb3df0723f3e0b"
+        }
+    ],
+    "hashType": "sha256"
+}

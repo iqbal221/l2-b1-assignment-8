@@ -1,0 +1,13 @@
+Mon Oct 30 2023 20:6:41 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Cannot read properties of undefined (reading 'map')
+Mon Oct 30 2023 20:11:39 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "facultyId"
+    ],
+    "message": "faculty Id is required"
+  }
+]

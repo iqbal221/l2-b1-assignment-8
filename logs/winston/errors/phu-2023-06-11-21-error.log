@@ -1,0 +1,36 @@
+Mon Nov 06 2023 21:0:13 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "tajin",
+    email: "jariniiuc222@gmail.com",
+    password: "123456",
+    role: "ADMIN",
+    contactNo: "01819832618",
+    address: "Bhatiary,Chattogram",
+    profileImg: "profile_image"
+  },
+  select: {
+?   id?: true,
+?   name?: true,
+?   email?: true,
+?   password?: true,
+?   role?: true,
+?   contactNo?: true,
+?   address?: true,
+?   profileImg?: true,
+?   createdAt?: true,
+?   updatedAt?: true,
+?   reviewAndRatings?: true,
+?   orders?: true,
+?   _count?: true
+  }
+}
+
+The `select` statement for type User needs at least one truthy value.
+Mon Nov 06 2023 21:4:42 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.user.create()` invocation:
+
+
+Unique constraint failed on the fields: (`email`)

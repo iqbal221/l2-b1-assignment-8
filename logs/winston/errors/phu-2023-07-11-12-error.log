@@ -1,0 +1,31 @@
+Tue Nov 07 2023 12:29:54 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "number",
+    "path": [
+      "body",
+      "price"
+    ],
+    "message": "Expected string, received number"
+  }
+]
+Tue Nov 07 2023 12:30:27 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.book.create()` invocation:
+
+{
+  data: {
+    title: "Hazar Prosner Jobab",
+    author: "Mohajatak",
+    genre: "Motivitional",
+    price: "350.75",
+           ~~~~~~~~
+    publicationDate: "1951-07-16",
+    categoryId: "5663c194-f54e-4027-8b98-1c712691c500"
+  },
+  include: {
+    category: true
+  }
+}
+
+Argument `price`: Invalid value provided. Expected Float, provided String.

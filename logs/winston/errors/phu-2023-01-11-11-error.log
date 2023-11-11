@@ -1,0 +1,12 @@
+Wed Nov 01 2023 11:28:39 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "semesterRegistrationId"
+    ],
+    "message": "Semester Registration Id is required"
+  }
+]

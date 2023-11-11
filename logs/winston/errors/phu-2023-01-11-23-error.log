@@ -1,0 +1,200 @@
+Wed Nov 01 2023 23:22:34 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.room.findMany()` invocation:
+
+{
+  include: {
+    building: true
+  },
+  where: {
+    AND: [
+      {
+        OR: [
+          {
+            room: {
+              contains: "101",
+              mode: "insensitive"
+            }
+          },
+          {
+            floorNumber: {
+              contains: "101",
+              mode: "insensitive"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  take: 10,
+  skip: 0,
+  orderBy: {
+    createdAt: "desc"
+  }
+}
+
+Unknown argument `room`. Did you mean `floor`? Available options are marked with ?.
+Wed Nov 01 2023 23:24:15 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "maxCapacity"
+    ],
+    "message": "Max Capacity is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "currentlyEnrollmentStudent"
+    ],
+    "message": "Currently Enrollment Student is required"
+  }
+]
+Wed Nov 01 2023 23:27:28 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "maxCapacity"
+    ],
+    "message": "Max Capacity is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "currentlyEnrollmentStudent"
+    ],
+    "message": "Currently Enrollment Student is required"
+  }
+]
+Wed Nov 01 2023 23:39:6 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "maxCapacity"
+    ],
+    "message": "Max Capacity is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "currentlyEnrollmentStudent"
+    ],
+    "message": "Currently Enrollment Student is required"
+  }
+]
+Wed Nov 01 2023 23:39:56 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.offeredCourseClassSchedule.create()` invocation:
+
+{
+  data: {
+    dayOfWeek: "SUNDAY",
+    semesterRegistrationId: "0c9eff81-4040-44cb-80ed-4120eaa17102",
+    offeredCourseId: "8d8a9221-ff58-4c3e-b55f-5869d99992d6",
+    roomId: "14e1b30a-4eec-430f-b05c-25e50204e18c",
+    facultyId: "838252ff-5f01-4e90-be17-0c74475e6ed4",
++   startDate: String
+  }
+}
+
+Argument `startDate` is missing.
+Wed Nov 01 2023 23:41:42 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.offeredCourseClassSchedule.create()` invocation:
+
+{
+  data: {
+    startDate: "12:00PM",
+    endDate: "2:00PM",
+    dayOfWeek: "SUNDAY",
+    semesterRegistrationId: "0c9eff81-4040-44cb-80ed-4120eaa17102",
+    offeredCourseId: "8d8a9221-ff58-4c3e-b55f-5869d99992d6",
+    roomId: "14e1b30a-4eec-430f-b05c-25e50204e18c",
+    facultyId: "838252ff-5f01-4e90-be17-0c74475e6ed4",
++   offeredCourseSection: {
++     create: OfferedCourseSectionCreateWithoutOfferedCourseClassSchedulesInput | OfferedCourseSectionUncheckedCreateWithoutOfferedCourseClassSchedulesInput,
++     connectOrCreate: OfferedCourseSectionCreateOrConnectWithoutOfferedCourseClassSchedulesInput,
++     connect: OfferedCourseSectionWhereUniqueInput
++   }
+  }
+}
+
+Argument `offeredCourseSection` is missing.
+Wed Nov 01 2023 23:42:43 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.offeredCourseClassSchedule.create()` invocation:
+
+{
+  data: {
+    startDate: "12:00PM",
+    endDate: "2:00PM",
+    dayOfWeek: "SUNDAY",
+    semesterRegistrationId: "0c9eff81-4040-44cb-80ed-4120eaa17102",
+    offeredCourseId: "af88fab7-df82-49c9-9887-afca9a376c6e",
+    roomId: "14e1b30a-4eec-430f-b05c-25e50204e18c",
+    facultyId: "838252ff-5f01-4e90-be17-0c74475e6ed4",
++   offeredCourseSection: {
++     create: OfferedCourseSectionCreateWithoutOfferedCourseClassSchedulesInput | OfferedCourseSectionUncheckedCreateWithoutOfferedCourseClassSchedulesInput,
++     connectOrCreate: OfferedCourseSectionCreateOrConnectWithoutOfferedCourseClassSchedulesInput,
++     connect: OfferedCourseSectionWhereUniqueInput
++   }
+  }
+}
+
+Argument `offeredCourseSection` is missing.
+Wed Nov 01 2023 23:43:7 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "offeredCourseId"
+    ],
+    "message": "Offered Course Id are required"
+  }
+]

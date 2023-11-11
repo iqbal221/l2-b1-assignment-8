@@ -1,0 +1,64 @@
+Tue Nov 07 2023 13:28:50 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.book.findMany()` invocation:
+
+{
+  include: {
+    category: true
+  },
+  where: {
+    AND: [
+      {
+        AND: [
+          {
+            minPrice: {
+              equals: "1000"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  take: 10,
+  skip: 0,
+  orderBy: {
+    price: "desc"
+  }
+}
+
+Unknown argument `minPrice`. Available options are marked with ?.
+Tue Nov 07 2023 13:43:29 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.book.findMany()` invocation:
+
+{
+  include: {
+    category: true
+  },
+  where: {
+    whereCondition: {},
+    ~~~~~~~~~~~~~~
+    price: {
+      minPrice: 1000,
+      maxPrice: 2000
+    },
+?   AND?: BookWhereInput | BookWhereInput[],
+?   OR?: BookWhereInput[],
+?   NOT?: BookWhereInput | BookWhereInput[],
+?   id?: StringFilter | String,
+?   title?: StringFilter | String,
+?   author?: StringFilter | String,
+?   genre?: StringFilter | String,
+?   publicationDate?: StringFilter | String,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   categoryId?: StringFilter | String,
+?   category?: CategoryRelationFilter | CategoryWhereInput,
+?   reviewAndRatings?: ReviewAndRatingListRelationFilter
+  },
+  take: 10,
+  skip: 0,
+  orderBy: {
+    price: "desc"
+  }
+}
+
+Unknown argument `whereCondition`. Available options are marked with ?.

@@ -1,0 +1,160 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\.8b217c2245bb2eb09e9d8f7bc0a07346b2435aa2-audit.json",
+    "files": [
+        {
+            "date": 1699244648065,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-06-11-10-error.log",
+            "hash": "67f1c32fb3c52a8093f78900e451ab30e8be1c258c9a71efcd67c7bb54092ae3"
+        },
+        {
+            "date": 1699263664355,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-06-11-15-error.log",
+            "hash": "b73700abfd236be3c26b95075bb70a7b892fa37a0256870db982b1f3d1cff3ae"
+        },
+        {
+            "date": 1699264938190,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-06-11-16-error.log",
+            "hash": "71b64fa4d51d79e52d913c40aeea226f2bfd995636b5f6652d09a816393e04d3"
+        },
+        {
+            "date": 1699278794036,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-06-11-19-error.log",
+            "hash": "44a37c3b15ad45052e642d983dfbd887ad6640e963c4924f5675179ac4c1f321"
+        },
+        {
+            "date": 1699279722392,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-06-11-20-error.log",
+            "hash": "1a7e451586c5854c18721a207110eedc79a8d687dab38f2ac310e5ec1a7ca8fc"
+        },
+        {
+            "date": 1699282813356,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-06-11-21-error.log",
+            "hash": "30f79cc52257537ef4fb54bc7b5b66edb5b1cb26724339ca84282d8bd8de21fa"
+        },
+        {
+            "date": 1699286771414,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-06-11-22-error.log",
+            "hash": "e1f5ee073fd0a7ac660b631ba53d59f2ac78b92650a3055da36d5f91d181a311"
+        },
+        {
+            "date": 1699292513766,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-06-11-23-error.log",
+            "hash": "9399cd79171a40f8f8440cc1486620d852957519ecdecf9fef606198b7d5d461"
+        },
+        {
+            "date": 1699293668044,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-07-11-00-error.log",
+            "hash": "aaf00d550f3e9855184336b71ba036bb3a8ed8d8967453d2c70c3123d4e986fc"
+        },
+        {
+            "date": 1699327466371,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-07-11-09-error.log",
+            "hash": "e0f515bb8cf232e9a0d4f59e4ff35c4521b1cc0b190c42003b54a3ee22af0eec"
+        },
+        {
+            "date": 1699330138596,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-07-11-10-error.log",
+            "hash": "93d7cb762218bf345ca3e6143584c11380a7b64877f6d117b792dc145ad82ef8"
+        },
+        {
+            "date": 1699334857924,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-07-11-11-error.log",
+            "hash": "01ec1edf17ff50194557bf523ae3b7c0261bc5d97be2d51692460638f8df71f8"
+        },
+        {
+            "date": 1699338594679,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-07-11-12-error.log",
+            "hash": "e19816222b3f690bc1a316187c25cd54385449ce361ad60faafe0ae313d8899d"
+        },
+        {
+            "date": 1699341958675,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-07-11-13-error.log",
+            "hash": "47dc0faa255c608c77ae6e5ca2b6d29e4646fe87650b55bb69ae6275a542e8ed"
+        },
+        {
+            "date": 1699367027096,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-07-11-20-error.log",
+            "hash": "dc030361145998d0e62a6c149c0964ff600c4fe7924429340d542295d476bd2e"
+        },
+        {
+            "date": 1699369338916,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-07-11-21-error.log",
+            "hash": "fb6cde75e1131c1a90e71d53b092f9a205f0519b39ede12d32b16320109807a9"
+        },
+        {
+            "date": 1699372937934,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-07-11-22-error.log",
+            "hash": "ba6536eb14abeccc656373bd244603563fb938c26d8b7f8b37d1d34dd8b63235"
+        },
+        {
+            "date": 1699378740892,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-07-11-23-error.log",
+            "hash": "0b35c9fb2b3dd1ff039a78e8b46ee147719b64008aed5d766b7bc68033e37bb6"
+        },
+        {
+            "date": 1699380161063,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-08-11-00-error.log",
+            "hash": "76bc21a8ed2f523c43a2ade410909e84039988518ce7e16280ce17e69dcf9ce1"
+        },
+        {
+            "date": 1699456740367,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-08-11-21-error.log",
+            "hash": "e59176b6e621331dd9e855087e3c0b6dc19dfeb4ff30fdc6fd660d132bf46cbc"
+        },
+        {
+            "date": 1699464019632,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-08-11-23-error.log",
+            "hash": "991907603802211501755034dccc3d24fc7f8885aedc264ab1978145400e8475"
+        },
+        {
+            "date": 1699501660917,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-09-11-09-error.log",
+            "hash": "1a6af786c901812e9dc17f17e0e4f7fd7021e86cd4a78f7fc62c813c702fca05"
+        },
+        {
+            "date": 1699502402641,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-09-11-10-error.log",
+            "hash": "962c6703a51fe74b919833c624e591f543f2f71e71c442e91fb9643d75416b51"
+        },
+        {
+            "date": 1699506080716,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-09-11-11-error.log",
+            "hash": "b6f4b10c3fed9695e7a47378ca6d2165eecffbd6fc92dab1f74da013a2a0180a"
+        },
+        {
+            "date": 1699513522017,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-09-11-13-error.log",
+            "hash": "b1f0be748f7f0131b99de8ee8a1748e493f472482d7b2f4734208c1b39018dae"
+        },
+        {
+            "date": 1699517858532,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-09-11-14-error.log",
+            "hash": "4de488593e538d48b8080cc614ad3b064b45bea29e2a02c2f50f62aeccf191d9"
+        },
+        {
+            "date": 1699520503381,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-09-11-15-error.log",
+            "hash": "fda0ced7b43487b412a04c9a9f9987c35ec444ef595648298fefdc51255585e8"
+        },
+        {
+            "date": 1699540821851,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-09-11-20-error.log",
+            "hash": "3d825a3abfa12957d68f1e7b1e6e2309d8a12a8d4fbc934c7bcf8a058c553da9"
+        },
+        {
+            "date": 1699542793518,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-09-11-21-error.log",
+            "hash": "f03f57ca368ba14d40b94beed5e7c1080dd656d42672d05632523512ffd647a5"
+        },
+        {
+            "date": 1699673749921,
+            "name": "D:\\assignment-8 (prisma+postgres)\\l2-b1-assignment-8\\logs\\winston\\errors\\phu-2023-11-11-09-error.log",
+            "hash": "6c8b9878ce907359aebbca8038084fec198f6114517de4310116af7bca56c404"
+        }
+    ],
+    "hashType": "sha256"
+}

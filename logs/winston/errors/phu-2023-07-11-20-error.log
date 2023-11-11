@@ -1,0 +1,298 @@
+Tue Nov 07 2023 20:38:0 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "number",
+    "path": [
+      "body",
+      "orderedBooks",
+      0,
+      "quantity"
+    ],
+    "message": "Expected string, received number"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "number",
+    "path": [
+      "body",
+      "orderedBooks",
+      1,
+      "quantity"
+    ],
+    "message": "Expected string, received number"
+  },
+  {
+    "expected": "'PENDING' | 'SHIPPED' | 'DELIVERED'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "status"
+    ],
+    "message": "Status is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "userId"
+    ],
+    "message": "User Id is required"
+  }
+]
+Tue Nov 07 2023 20:39:13 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "expected": "'PENDING' | 'SHIPPED' | 'DELIVERED'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "status"
+    ],
+    "message": "Status is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "userId"
+    ],
+    "message": "User Id is required"
+  }
+]
+Tue Nov 07 2023 20:39:32 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Unexpected token } in JSON at position 97
+Tue Nov 07 2023 20:39:44 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "undefined",
+    "path": [
+      "body",
+      "orderedBooks",
+      0,
+      "quantity"
+    ],
+    "message": "Quantity is required"
+  },
+  {
+    "expected": "'PENDING' | 'SHIPPED' | 'DELIVERED'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "status"
+    ],
+    "message": "Status is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "userId"
+    ],
+    "message": "User Id is required"
+  }
+]
+Tue Nov 07 2023 20:41:13 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "expected": "'PENDING' | 'SHIPPED' | 'DELIVERED'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "status"
+    ],
+    "message": "Status is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "userId"
+    ],
+    "message": "User Id is required"
+  }
+]
+Tue Nov 07 2023 20:42:16 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "expected": "'PENDING' | 'SHIPPED' | 'DELIVERED'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "status"
+    ],
+    "message": "Status is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "userId"
+    ],
+    "message": "User Id is required"
+  }
+]
+Tue Nov 07 2023 20:52:7 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Tue Nov 07 2023 20:54:59 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.user.findMany()` invocation:
+
+{
+  where: {
+    AND: [
+      {
+        OR: [
+          {
+            name: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          },
+          {
+            email: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          },
+          {
+            contactNo: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          },
+          {
+            address: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          },
+          {
+            role: {
+              contains: "CUSTOMER",
+              mode: "insensitive"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  take: 10,
+  skip: 0,
+  orderBy: {
+    createdAt: "desc"
+  }
+}
+
+Unknown argument `contains`. Available options are marked with ?.
+Tue Nov 07 2023 20:55:28 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.user.findMany()` invocation:
+
+{
+  where: {
+    AND: [
+      {
+        OR: [
+          {
+            name: {
+              contains: "customer",
+              mode: "insensitive"
+            }
+          },
+          {
+            email: {
+              contains: "customer",
+              mode: "insensitive"
+            }
+          },
+          {
+            contactNo: {
+              contains: "customer",
+              mode: "insensitive"
+            }
+          },
+          {
+            address: {
+              contains: "customer",
+              mode: "insensitive"
+            }
+          },
+          {
+            role: {
+              contains: "customer",
+              mode: "insensitive"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  take: 10,
+  skip: 0,
+  orderBy: {
+    createdAt: "desc"
+  }
+}
+
+Unknown argument `contains`. Available options are marked with ?.
+Tue Nov 07 2023 20:56:53 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.user.findMany()` invocation:
+
+{
+  where: {
+    AND: [
+      {
+        OR: [
+          {
+            name: {
+              contains: "tajin",
+              mode: "insensitive"
+            }
+          },
+          {
+            email: {
+              contains: "tajin",
+              mode: "insensitive"
+            }
+          },
+          {
+            contactNo: {
+              contains: "tajin",
+              mode: "insensitive"
+            }
+          },
+          {
+            address: {
+              contains: "tajin",
+              mode: "insensitive"
+            }
+          },
+          {
+            role: {
+              contains: "tajin",
+              mode: "insensitive"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  take: 10,
+  skip: 0,
+  orderBy: {
+    createdAt: "desc"
+  }
+}
+
+Unknown argument `contains`. Available options are marked with ?.
