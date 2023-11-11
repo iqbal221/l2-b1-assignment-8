@@ -18,11 +18,12 @@ router.get(
   auth(ENUM_USER_ROLE.CUSTOMER, ENUM_USER_ROLE.ADMIN),
   OrderController.GetDataById
 );
+
+router.get('/', auth(ENUM_USER_ROLE.ADMIN), OrderController.GetAllFromDB);
 router.get(
   '/',
   auth(ENUM_USER_ROLE.CUSTOMER),
   OrderController.GetAllOrdersByCustomer
 );
-router.get('/', auth(ENUM_USER_ROLE.ADMIN), OrderController.GetAllFromDB);
 
 export const OrderRoutes = router;

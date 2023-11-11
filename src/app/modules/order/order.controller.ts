@@ -20,7 +20,7 @@ const GetAllFromDB = catchAsync(async (req: Request, res: Response) => {
   const filters = pick(req.query, OrderFilterableFields);
   const options = pick(req.query, ['page', 'limit', 'sortBy', 'sortOrder']);
 
-  const result = await OrderService.GetAllFromDB(filters, options);
+  const result = await OrderService.GetAllFromDB(filters, options, req.user);
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,

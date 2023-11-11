@@ -47,9 +47,6 @@ const GetAllFromDB = async (
     });
   }
 
-  // person = {name:'zahed'}
-  // person[name] = zahed
-
   const whereCondition: Prisma.BookWhereInput =
     andConditions.length > 0 ? { AND: andConditions } : {};
 

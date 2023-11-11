@@ -12,7 +12,7 @@ import { IOrderFilters } from './order.interface';
 const InsertIntoDB = async (
   OrderData: Order,
   UserData: JwtPayload | null
-): Promise<Order> => {
+): Promise<Partial<Order>> => {
   const isUserExist = await prisma.user.findUnique({
     where: {
       email: UserData?.userEmail,
@@ -37,11 +37,22 @@ const InsertIntoDB = async (
 
 const GetAllFromDB = async (
   filters: IOrderFilters,
-  options: IPaginationOptions
+  options: IPaginationOptions,
+  UserData: JwtPayload | null
 ): Promise<IGenericResponse<Order[]>> => {
   const { limit, page, skip, sortBy, sortOrder } =
     paginationHelpers.calculatePagination(options);
   const { searchTerm, ...filtersData } = filters;
+
+  const isUserExist = await prisma.user.findFirst({
+    where: {
+      email: UserData?.userEmail,
+    },
+  });
+
+  if (!isUserExist) {
+    throw new ApiError(httpStatus.BAD_REQUEST, 'Only show access admin');
+  }
 
   const andConditions = [];
 
@@ -66,13 +77,13 @@ const GetAllFromDB = async (
     });
   }
 
-  // person = {name:'zahed'}
-  // person[name] = zahed
-
   const whereCondition: Prisma.OrderWhereInput =
     andConditions.length > 0 ? { AND: andConditions } : {};
 
   const result = await prisma.order.findMany({
+    include: {
+      user: true,
+    },
     where: whereCondition,
     take: limit,
     skip,
@@ -109,6 +120,9 @@ const GetDataById = async (
   });
 
   const getSingleOrder = await prisma.order.findUnique({
+    include: {
+      user: true,
+    },
     where: {
       userId: isUserExist?.id,
       id: orderId,
@@ -123,10 +137,20 @@ const GetAllOrdersByCustomer = async (
   const isUserExist = await prisma.user.findUnique({
     where: {
       email: UserData?.userEmail,
+      role: UserData?.role,
     },
   });
 
+  console.log(isUserExist);
+
+  if (!isUserExist) {
+    throw new ApiError(httpStatus.BAD_REQUEST, 'User has no order');
+  }
+
   const getAllOrders = await prisma.order.findMany({
+    include: {
+      user: true,
+    },
     where: {
       userId: isUserExist?.id,
     },

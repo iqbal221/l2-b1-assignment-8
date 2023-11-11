@@ -44,13 +44,13 @@ const GetAllFromDB = async (
     });
   }
 
-  // person = {name:'zahed'}
-  // person[name] = zahed
-
   const whereCondition: Prisma.CategoryWhereInput =
     andConditions.length > 0 ? { AND: andConditions } : {};
 
   const result = await prisma.category.findMany({
+    include: {
+      books: true,
+    },
     where: whereCondition,
     take: limit,
     skip,
@@ -78,6 +78,9 @@ const GetAllFromDB = async (
 
 const GetDataById = async (id: string): Promise<Category | null> => {
   const result = await prisma.category.findUnique({
+    include: {
+      books: true,
+    },
     where: {
       id,
     },
@@ -90,6 +93,9 @@ const UpdateIntoDB = async (
   payload: Partial<Category>
 ): Promise<Category> => {
   const result = await prisma.category.update({
+    include: {
+      books: true,
+    },
     where: {
       id,
     },
@@ -100,6 +106,9 @@ const UpdateIntoDB = async (
 
 const DeleteFromDB = async (id: string) => {
   const result = await prisma.category.delete({
+    include: {
+      books: true,
+    },
     where: {
       id,
     },
