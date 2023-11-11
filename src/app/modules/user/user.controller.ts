@@ -54,9 +54,22 @@ const DeleteFromDB = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const GetUserProfile = catchAsync(async (req: Request, res: Response) => {
+  console.log(req.user);
+  const result = await UserService.GetUserProfile(req.user);
+  console.log(result);
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'User Profile Data fetched successfully',
+    data: result,
+  });
+});
+
 export const UserController = {
   GetAllFromDB,
   GetDataById,
   UpdateIntoDB,
   DeleteFromDB,
+  GetUserProfile,
 };

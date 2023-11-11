@@ -3,6 +3,7 @@ import { AuthRoutes } from '../modules/auth/auth.route';
 import { BookRoutes } from '../modules/book/book.routes';
 import { CategoryRoutes } from '../modules/category/category.routes';
 import { OrderRoutes } from '../modules/order/order.routes';
+import { UserProfileRoutes } from '../modules/profile/profile.routes';
 import { UserRoutes } from '../modules/user/user.routes';
 // import { AuthRoutes } from '../modules/auth/auth.route';
 
@@ -28,6 +29,10 @@ const moduleRoutes: any[] = [
   {
     path: '/orders',
     route: OrderRoutes,
+  },
+  {
+    path: '/profile',
+    route: UserProfileRoutes,
   },
 ];
 

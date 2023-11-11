@@ -16,5 +16,11 @@ router.patch(
 router.delete('/:id', auth(ENUM_USER_ROLE.ADMIN), UserController.DeleteFromDB);
 router.get('/:id', auth(ENUM_USER_ROLE.ADMIN), UserController.GetDataById);
 router.get('/', auth(ENUM_USER_ROLE.ADMIN), UserController.GetAllFromDB);
+router.get(
+  '/',
+  // auth(ENUM_USER_ROLE.ADMIN),
+  // auth(ENUM_USER_ROLE.CUSTOMER),
+  UserController.GetUserProfile
+);
 
 export const UserRoutes = router;

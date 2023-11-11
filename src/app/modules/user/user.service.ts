@@ -1,4 +1,5 @@
 import { Prisma, User } from '@prisma/client';
+import { JwtPayload } from 'jsonwebtoken';
 import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
@@ -100,9 +101,21 @@ const DeleteFromDB = async (id: string) => {
   return result;
 };
 
+const GetUserProfile = async (
+  UserData: JwtPayload | null
+): Promise<User | null> => {
+  const result = await prisma.user.findFirst({
+    where: {
+      email: UserData?.userEmail,
+    },
+  });
+  return result;
+};
+
 export const UserService = {
   GetAllFromDB,
   GetDataById,
   UpdateIntoDB,
   DeleteFromDB,
+  GetUserProfile,
 };
