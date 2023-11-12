@@ -11,7 +11,6 @@ const CreateUser = async (userData: User): Promise<Partial<User>> => {
   const result = await prisma.user.create({
     data: userData,
     select: {
-      id: true,
       name: true,
       email: true,
       password: false,

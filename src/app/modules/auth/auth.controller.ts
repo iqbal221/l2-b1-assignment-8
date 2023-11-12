@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { User } from '@prisma/client';
 import { Request, Response } from 'express';
 import httpStatus from 'http-status';
 import catchAsync from '../../../shared/catchAsync';
@@ -9,7 +8,7 @@ import { AuthService } from './auth.service';
 
 const CreateUser = catchAsync(async (req: Request, res: Response) => {
   const result = await AuthService.CreateUser(req.body);
-  sendResponse<User>(res, {
+  sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
     message: 'User created successfully',

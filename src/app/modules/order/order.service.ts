@@ -7,13 +7,13 @@ import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { prisma } from '../../../shared/prisma';
 import { OrderSearchableFields } from './order.constant';
-import { IOrderFilters } from './order.interface';
+import { IOrderFilters, IOrderedBook } from './order.interface';
 
 const InsertIntoDB = async (
-  OrderData: Order,
+  OrderData: IOrderedBook,
   UserData: JwtPayload | null
-): Promise<Partial<Order>> => {
-  const isUserExist = await prisma.user.findUnique({
+): Promise<Order> => {
+  const isUserExist = await prisma.user.findFirst({
     where: {
       email: UserData?.userEmail,
     },
@@ -23,13 +23,14 @@ const InsertIntoDB = async (
     throw new ApiError(httpStatus.BAD_REQUEST, 'User Id is required');
   }
 
-  OrderData.userId = isUserExist?.id;
-
   const result = await prisma.order.create({
     include: {
       user: true,
     },
-    data: OrderData,
+    data: {
+      orderedBooks: OrderData?.orderedBooks,
+      userId: isUserExist?.id,
+    },
   });
 
   return result;
